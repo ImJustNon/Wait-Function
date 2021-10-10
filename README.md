@@ -1,3 +1,4 @@
+## 1
 ```js
 function wait(milliseconds) {
   const date = Date.now();
@@ -10,4 +11,20 @@ function wait(milliseconds) {
 console.log("start !!");
 wait(2000);
 console.log("go");
+```
+
+
+## 2
+```js
+function function1() {
+    console.log('Welcome to My Console,');
+}
+
+function function2() {
+    console.log('Blah blah blah blah extra-blah');
+}
+
+function1();
+
+setTimeout(function2, 3000);
 ```
