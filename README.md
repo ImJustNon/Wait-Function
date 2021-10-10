@@ -28,3 +28,11 @@ function1();
 
 setTimeout(function2, 3000);
 ```
+
+
+## 3
+```js
+setTimeout(function(){ 
+    console.log("Ready")
+}, 1000);
+```
